@@ -18,6 +18,19 @@
         <li>Git</li>
         <li>GitHub</li>
     </ul>
+    <section aria-labelledby="calculator-title">
+        <h2 id="calculator-title">Варіант №3: JavaScript-проєкт</h2>
+        <p>Калькулятор вартості покупки: введіть кількість і ціну товару.</p>
+        <form id="sales-calculator">
+            <label for="quantity">Кількість</label>
+            <input id="quantity" name="quantity" type="number" min="1" step="1" value="2" required>
+            <label for="price">Ціна за одиницю, грн</label>
+            <input id="price" name="price" type="number" min="0" step="0.01" value="150" required>
+            <button type="submit">Розрахувати</button>
+        </form>
+        <p id="calculation-result" role="status" aria-live="polite">Введіть дані та натисніть «Розрахувати».</p>
+    </section>
+    <script src="script.js" defer></script>
     <footer>
         <p>© 2026 Web Technologies</p>
     </footer>
