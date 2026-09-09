@@ -10,3 +10,19 @@ h1 {
 p {
     font-size: 18px;
 }
+
+form {
+    display: grid;
+    gap: 10px;
+    max-width: 360px;
+}
+input, button {
+    padding: 10px;
+    font: inherit;
+}
+button {
+    cursor: pointer;
+}
+section {
+    margin-top: 32px;
+}
